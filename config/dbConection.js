@@ -5,7 +5,7 @@ const sequelize = new Sequelize(
     'root',
     '12345',
      {
-       host: '0.0.0.0',
+       host: '127.0.0.1',
        dialect: 'mysql',
        pool :{
         max:10,
